@@ -2,7 +2,6 @@ body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
-    background-color: blue;
 }
 /* --- navigation - start --- */
 #main-nav {
@@ -10,7 +9,7 @@ body {
     /* background-color: #ffffff; */
     font-weight: 300;
     width: 100%;
-    /* z-index: 99; */
+    z-index: 99;
     
 }
 ul {
@@ -45,6 +44,7 @@ a:hover {
     color: white;
 }
 #header {
+    position: relative;
     height: 100vh;
     background-image: url(../img/header-background.jpg);
     background-size: cover;
@@ -56,4 +56,25 @@ a:hover {
 }
 .surname {
     color: #1ac056;
+    font-weight: 600;
+}
+.section {
+    padding: 0 80px 100px;
+}
+.sectionHeader {
+    padding: 60px 0 35px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.face {
+    max-height: 350px;
+    max-width: 100%;
+    border: 15px solid white;
+    border-radius: 15px;
+}
+figure {
+    margin: 0px;
+}
+#about {
+    background-color: #f9fcfe;
 }
