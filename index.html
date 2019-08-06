@@ -6,19 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Allura&display=swap" rel="stylesheet"> 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Custom style -->
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/74db22a62c.js"></script>
 </head>
 <body>
     <nav id="main-nav">
         <ul>
-            <li><a href="">o mnie</a></li>
-            <li><a href="">umiejętności</a></li>
-            <li><a href="">portfolio</a></li>
-            <li><a href="">kontakt</a></li>
+            <li><a class="aNav" href="#">o mnie</a></li>
+            <li><a class="aNav" href="#">umiejętności</a></li>
+            <li><a class="aNav" href="#">portfolio</a></li>
+            <li><a class="aNav" href="#">kontakt</a></li>
         </ul>
     </nav>
     <div class="container-fluid" id="header">
@@ -36,7 +37,9 @@
                 </figure>
             </div>
             <div class="col-7">
-                <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quas voluptas nihil veritatis cum suscipit qui perferendis illum dolores cupiditate culpa vel facere, eaque non magni sunt rerum explicabo. Recusandae quidem illum doloremque libero ipsa sed quos perferendis eveniet aliquam perspiciatis veniam omnis, similique non deleniti impedit distinctio tenetur odit? Voluptates odit tenetur aperiam vitae praesentium aliquam non veritatis suscipit nulla quo. Aliquam a blanditiis vitae, non porro rerum nam ducimus doloremque recusandae. Aliquam pariatur beatae iusto doloribus commodi numquam maxime repellendus fugit. Unde dicta, ex, aperiam debitis eos officia est error quis minus impedit dolorum ipsam facilis consequatur excepturi.</article>
+                <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quas voluptas nihil veritatis cum suscipit qui perferendis illum dolores cupiditate culpa vel facere, eaque non magni sunt rerum explicabo. Recusandae quidem illum doloremque libero ipsa sed quos perferendis eveniet aliquam perspiciatis veniam omnis, similique non deleniti impedit distinctio tenetur odit? Voluptates odit tenetur aperiam vitae praesentium aliquam non veritatis suscipit nulla quo. Aliquam a blanditiis vitae, non porro rerum nam ducimus doloremque recusandae. Aliquam pariatur beatae iusto doloribus commodi numquam maxime repellendus fugit. Unde dicta, ex, aperiam debitis eos officia est error quis minus impedit dolorum ipsam facilis consequatur excepturi.<br>
+                    <br>
+                <p class="invitation">Zapraszam do współpracy</p></article>
             </div>
         </div>
         </section>
@@ -59,9 +62,52 @@
                     <figcaption>jQuery</figcaption>
                 </figure>
             </div>
-        <section class="row">
-
-        </section>
+        </div>
+    </div>
+    <div class="container-fluid section" id="portfolio">
+        <div class="container">
+            <p class="h2 text-center sectionHeader">Moje <span class="surname">portfolio</span></p>
+            <div class="portfolio-items">
+                <div class="portfolio-item" id="portfolio-item-1">
+                    <div class="item-mask">
+                        <div class="item-content">
+                            <div class="item-content-inner">
+                                <h3>Projekt 1</h3>
+                                <p>Opis projektu Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, aut. Ipsum nemo modi laboriosam dicta!</p>
+                                <h4>Wykorzystane technologie</h4>
+                                <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</p>
+                                <a class="linkProject" href="#"><i class="fas fa-link linkProject"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" id="portfolio-item-2">
+                    <div class="item-mask">
+                        <div class="item-content">
+                            <div class="item-content-inner">
+                                <h3>Projekt 2</h3>
+                                <p>Opis projektu Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, aut. Ipsum nemo modi laboriosam dicta!</p>
+                                <h4>Wykorzystane technologie</h4>
+                                <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</p>
+                                <a class="linkProject" href="#"><i class="fas fa-link linkProject"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" id="portfolio-item-3">
+                    <div class="item-mask">
+                        <div class="item-content">
+                            <div class="item-content-inner">
+                                <h3>Projekt 3</h3>
+                                <p>Opis projektu Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, aut. Ipsum nemo modi laboriosam dicta!</p>
+                                <h4>Wykorzystane technologie</h4>
+                                <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</p>
+                                <a class="linkProject" href="#"><i class="fas fa-link linkProject"></i></a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
