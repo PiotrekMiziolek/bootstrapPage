@@ -33,6 +33,12 @@ a.aNav:hover {
     color: white;
     background-color: #1ac056;
 }
+.toggle {
+    display: none;
+}
+#drop {
+    display: none;
+}
 /* --- navigation - end --- */
 
 /* --- section - about - start --- */
@@ -69,11 +75,18 @@ a.aNav:hover {
     font-size: 30px;
     font-weight: 300;
 }
+.aboutPhoto {
+    width: 45%;
+    margin-right: 5%;
+}
 .face {
     max-height: 350px;
     max-width: 100%;
     border: 15px solid white;
     border-radius: 15px;
+}
+.aboutText {
+    width: 50%;
 }
 .invitation {
     font-family: 'Allura', cursive;
@@ -250,5 +263,114 @@ a.socialIcon:hover {
     margin: 0px;
 }
 /* --- section - footer - end --- */
+
+/* --- media-queries - start --- */
+@media all and (max-width : 1200px) {
+    .portfolio-item {
+        width: 50%;
+    }
+    .portfolio-item:last-child {
+        width: 100%;
+    }
+    
+
+}
+@media all and (max-width : 992px) {
+    .toggle {
+        display: block;
+        background-color: #fff;
+        padding: 0 20px;
+        color: #1ac056;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        border: none;
+        text-align: right;
+    }
+    ul {
+        display: none;
+    }
+    #main-nav #drop:checked + ul {
+        display: block;
+    }
+    #main-nav {
+        background: none;
+    }
+    li {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: right;
+    }
+    .main-header-content {
+        padding: 10%;
+    }
+    figure {
+        width: 100%;
+    }
+    img {
+        max-height: inherit;
+    }
+    article {
+        width: 100%;
+    }
+    .icon {
+        display: inline-block;
+        margin: 40px 0;
+        width: 24%;
+    }
+    .invitation {
+        font-size: 2.0rem;
+    }
+    .portfolio-item {
+        width: 100%;
+    }
+    .contact-data {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-form {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    a.socialIcon {
+        margin: 0;
+    }
+}
+@media all and (max-width : 768px) {
+    .section {
+        padding: 0 40px 50px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.5em;    
+    }
+    figure {
+        width: 100%;
+    }
+    .aboutPhoto {
+        margin: 0 auto;
+    }
+    .aboutText {
+        width: 100%;
+    }
+}
+@media all and (max-width : 576px) {
+    .section {
+        padding: 0 10px 30px;
+    }
+    .icon {
+        display: inline-block;
+        margin: 40px 0;
+        width: 45%;
+    }
+    .name {
+        font-size: 4rem;
+    }
+
+}
 
 
