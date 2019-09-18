@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     /* font-family: 'Lato', sans-serif; */
     color: #291f1a;
@@ -71,8 +74,8 @@ a.aNav:hover {
     padding: 0 80px 100px;
 }
 .sectionHeader {
-    padding: 60px 0 35px;
-    font-size: 30px;
+    padding: 80px 0 50px;
+    /* font-size: 30px; */
     font-weight: 300;
 }
 .aboutPhoto {
